@@ -1,1 +1,156 @@
 https://replit.com/@gb574266/HTML-CSS-project-1?s=app
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+
+   <main id="main">
+
+       <h1 id="title">
+          ꧁༺Sheikh Mujibur Rohman༻꧂
+       </h1>
+
+      <div>
+
+        <image>
+          <a href="https://imgbb.com/"><img src="https://i.ibb.co/4JGwd7p/6-EC0754-F-B876-49-F2-9-E7-F-6242-A9-DA0191.jpg" alt="6-EC0754-F-B876-49-F2-9-E7-F-6242-A9-DA0191" border="0"></a>
+        </image>
+    <br>
+        <p id="caption">
+
+Sheikh Mujib or Bangabandhu, was the first president of Bangladesh and one of the most influential political figures in South Asia.
+
+        </p>
+      </div>
+
+    <div id="tribute-info">
+
+ <h1 id="title-bsm">
+   About the legend
+ </h1>
+
+      <hr>
+      
+      <p>
+      
+👉 Father of the Nation Bangabandhu Sheikh Mujibur Rahman was born on March 17, 1920 in a noble Muslim family in Tungipara village of Gopalganj subdivision (now district) of Faridpur district.
+
+      <br><br>
+      
+👉Sheikh Mujib is the third child among four daughters and two sons of Sheikh Lutfar Rahman and Mosammat Sahara Khatun.
+
+      <br><br>
+      
+👉Mujib, the son of a middle-class landowner, studied law and political science at the Universities of Calcutta and Dacca (now Dhaka). Although jailed briefly as a teenager for agitating for Indian independence, he began his formal political career in 1949 as a cofounder of the Awami League.
+      
+      <br><br>
+      
+👉The league advocated political autonomy for East Pakistan, the detached eastern part of Pakistan. Mujib’s arrest in the late 1960s incited mob violence that eroded the Pakistani president’s authority in East Pakistan. 
+
+      <br><br>
+      
+👉In the elections of December 1970, Mujib’s Awami League secured a majority of the seats in the National Assembly, and Mujib demanded independence for East Pakistan. Troops from West Pakistan were sent to regain control of the eastern province but were defeated with the help of India. 
+
+      <br><br>
+      
+👉East Pakistan, renamed Bangladesh, was proclaimed an independent republic in 1971, and in January 1972 Mujib, recently released from prison, became the first prime minister installed under the country’s new parliamentary government. Faced with increasing problems, Mujib took tighter control and assumed the presidency in January 1975. He, along with most of his family, was killed in a coup d’état just seven months later. 
+
+      <br><br>
+      
+👉His daughter, Sheikh Hasina Wazed, who was out of the country at the time of the overthrow, later served as prime minister of Bangladesh (1996–2001; 2009– ).He earn him nickname <strong>"Bangabandhu"</strong>
+
+      </p>
+      
+    </div> 
+     
+     <br>
+
+For more information,
+     
+check out
+
+ <a id="tribute-link" href="#">
+
+ <b>Bangabandhu Sheikh Mujibur Rahman</b> 
+
+</a>on Wikipedia. [
+
+   <small>Developed by @<a href="#">Apurbo Apu</a>
+
+     </small>]
+
+     
+     
+   </main>
+  
+</body>
+
+</html>
+-----------------///----
+body{
+  background-color: #fefcdd;
+  
+}
+
+#title{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+img{
+  width: 50%;
+  height: 50%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -7px;
+  
+}
+
+#caption{
+  text-align:justify;
+  font-size: 14px;
+  font-family:Gill Sans, sans-serif;
+  margin-left:5px;
+  margin-top: -5px;
+  text-style: italic;
+}
+
+ #tribute-info{
+
+   background-color:rgb(211, 226, 255,0.25);
+   box-shadow: 10px 10px 10px #707070;
+ //  border: 2px solid black;
+   width:250px;
+   margin-left:25px;
+}
+
+#tribute-info > p{
+  font-size: 15px;
+  width:95%;
+  margin-left:5px;
+  text-align: justify;
+  
+}
+
+#title-bsm{
+  text-align: center;
+  color:white;
+  text-shadow: 4px 4px 8px #000000;
+}
+
+#tribute-link{
+  text-decoration:none;
+  color:black;
+}
